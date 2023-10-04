@@ -1,2 +1,1 @@
-# leetcode
-Leetcode codes
+# leetcode - solutions
