@@ -33,4 +33,4 @@ Implement the `MyHashMap` class:
 **Constraints:**
 
 - `0 <= key, value <= 106`
-- At most `10<sup>4</sup>` calls will be made to `put`, `get`, and `remove`.
+- At most `10^4` calls will be made to `put`, `get`, and `remove`.
