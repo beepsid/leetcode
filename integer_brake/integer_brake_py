@@ -1,0 +1,12 @@
+class Solution(object):
+    def integerBreak(self, n):
+        value = 0
+        if(n<=3):
+            value=n-1
+        elif(n%3==0):
+            value= 3**(n//3)
+        elif(n%3==1):
+            value= 3**((n//3)-1)*4
+        else:
+            value = 3**(n//3)*2
+        return value
