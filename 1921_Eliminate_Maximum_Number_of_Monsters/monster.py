@@ -14,7 +14,7 @@ class Solution:
             if(ans[i]<=i):
                 break
             count+=1
-        
+         
         return count
 
 solution = Solution()
